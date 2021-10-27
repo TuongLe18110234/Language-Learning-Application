@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Language Learning App</string>
+    <string name="en_home">Home</string>
+    <string name="vn_home">Trang chủ</string>
+    <string name="en_audio">Audio</string>
+    <string name="vn_audio">Âm thanh</string>
+    <string name="en_test">Test</string>
+    <string name="vn_test">Kiểm tra</string>
+    <string name="en_practice">Practice</string>
+    <string name="vn_practice">Luyện tập</string>
+    <string name="en_more">More</string>
+    <string name="vn_more">Mở rộng</string>
+
+    <string name="vn_language">Ngôn ngữ</string>
+    <string name="vn_manager">Quản lý</string>
+    <string name="vn_trainee">Học viên</string>
+
+    <string name="vn_lesson">Bài học</string>
+    <string name="vn_music">Bài hát</string>
+    <string name="vn_words">Từ vựng</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

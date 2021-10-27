@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+
+    <TextView
+        android:id="@+id/txtVideoName"
+        android:layout_below="@id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="24dp"
+        android:text="Tên bài hát:"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/edVideoName"
+        android:layout_below="@+id/txtVideoName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập tên bài hát"
+        android:text=""
+        android:padding="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/bg_edit_text"/>
+
+    <TextView
+        android:id="@+id/txtSinger"
+        android:layout_below="@id/edVideoName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="24dp"
+        android:text="Ca sĩ trình bày:"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/edSinger"
+        android:layout_below="@id/txtSinger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập tên ca sĩ"
+        android:padding="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/bg_edit_text"/>
+
+    <TextView
+        android:id="@+id/txtVideoId"
+        android:layout_below="@id/edSinger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="24dp"
+        android:text="Video ID"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/edVideoId"
+        android:layout_below="@+id/txtVideoId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập video id từ Youtube"
+        android:padding="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/bg_edit_text"/>
+
+    <TextView
+        android:id="@+id/txtLyric"
+        android:layout_below="@id/edVideoId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="24dp"
+        android:text="Lời bài hát:"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/edLyric"
+        android:layout_below="@id/txtLyric"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/layout_button"
+        android:hint="Nhập lời bài hát"
+        android:padding="8dp"
+        android:gravity="top|left"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/bg_edit_text"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp">
+
+        <Button
+            android:id="@+id/btnClose"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="48dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/shadow_color"
+            android:text="Thoát"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="48dp"
+            android:layout_weight="1"
+            android:text="Lưu"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:backgroundTint="@color/green_bright"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>

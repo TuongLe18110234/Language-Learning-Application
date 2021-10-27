@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item_trainee_flashcard_lesson"
+    android:layout_gravity="center"
+    android:layout_margin="8dp"
+    android:background="@drawable/bg_white_corner_16dp_grey_border">
+
+    <TextView
+        android:id="@+id/txtLessonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Animals"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/blue_light"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/txtLessonDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Động vật"
+        android:layout_below="@id/txtLessonName"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/txtActiveWordCount"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:text="10"
+        android:textStyle="bold"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:background="@drawable/bg_grey_circle_grey_border"/>
+
+
+
+</RelativeLayout>

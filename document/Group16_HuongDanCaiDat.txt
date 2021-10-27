@@ -1,0 +1,65 @@
+LANGUAGES LEARNING APP
+vesion 1.0
+=================================================
+Features:
+1. Register
+2. Login
+3. Fogot Password
+4. Bottom Navigation Menu and Devide Fragments
+5. (Test) List Lessons
+6. (Test) Profile
+7. Logout
+=================================================
+Required:
+- JDK 1.8+
+- Android Studio
+- Android Device 9.0+
+=================================================
+Tutorial
+1. Open our project with Android Studio
+-------------------------------------------------
+2. Choose Android device and start the project.
+-------------------------------------------------
+3. Login
+* If you already have an account, you can login with it:
+	- Enter your email in Email field.
+	- Enter your password in Password field.
+	- Press "LOGIN" button
+	- You can use our demo account to login:
+		+ Email: 18110207@student.hcmute.edu.vn
+		+ Password: 12345678
+* If you don't have an accound, press "Register" to create a new account.
+You have to fill in some information to create account:
+	- Your name
+	- Your phone number
+	- Your email address
+	- Your password (at least 8 characters)
+And press "REGISTER USER" to create account.
+Note: 
+	- After registration, you cannot log in to the system immediately.
+	- You must log in to your email account and verify the account. 
+	- And now, you can login to the system with your account.
+-------------------------------------------------
+4. Choose Language to learn
+- After login successfully, system will ask you choose which language you want to learn.
+- You can choose one of them to start learning.
+- Now, we have English and Chinese and we will develop more in the future.
+-------------------------------------------------
+5. Learning Screen
+In this screen, we have a bottom navigation menu for you to choose.
+And we have 5 item to choose.
+	1. Home: It is a navigation page for you to choose the system's features. (Not ready)
+	2. Audio: You can listen audio files. (Demo list lesson)
+	3. Test: You can take the quiz for each lesson. (Not ready)
+	4. Practive: This is a page to help you learn new words through lessons. (Not ready)
+	5. More: You can chose more features in our system (Demo profile and logout)
+-------------------------------------------------
+6.  Forgot pasword
+	- From Login screen, if you cann't remember your password, you can choose "Forgot password".
+	- Then you have to enter the email address (which is the email you used to register the account).
+	- Press "RESET PASSWORD".
+	- And you can login your email to enter new password.
+
+
+
+	

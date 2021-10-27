@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "6719038454",
+    "firebase_url": "https://languages-learning-app-1f506-default-rtdb.firebaseio.com",
+    "project_id": "languages-learning-app-1f506",
+    "storage_bucket": "languages-learning-app-1f506.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:6719038454:android:3f4e43c4a8b658ca5f5dd7",
+        "android_client_info": {
+          "package_name": "com.example.languages_learning_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "6719038454-ovvbkkadnncdilgcgi66bj1t5d32j8ut.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpliAqM5RTywkzfzA-Bv8SkAz60EOMt84"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "6719038454-ovvbkkadnncdilgcgi66bj1t5d32j8ut.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:6719038454:android:dc0052961f7670a35f5dd7",
+        "android_client_info": {
+          "package_name": "com.example.languageslearningapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "6719038454-ovvbkkadnncdilgcgi66bj1t5d32j8ut.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpliAqM5RTywkzfzA-Bv8SkAz60EOMt84"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "6719038454-ovvbkkadnncdilgcgi66bj1t5d32j8ut.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="@string/en_home" />
+    <item
+        android:id="@+id/nav_flashcard"
+        android:icon="@drawable/ic_flashcard_24"
+        android:title="Flashcard" />
+    <item
+        android:id="@+id/nav_test"
+        android:icon="@drawable/ic_baseline_test_24"
+        android:title="@string/en_test" />
+    <item
+        android:id="@+id/nav_practice"
+        android:icon="@drawable/ic_baseline_practice_24"
+        android:title="@string/en_practice" />
+    <item
+        android:id="@+id/nav_more"
+        android:icon="@drawable/ic_baseline_more_24"
+        android:title="@string/en_more" />
+</menu>

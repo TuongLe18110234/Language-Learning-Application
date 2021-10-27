@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Views.Trainee.TraineeVocabularyActivity">
+
+    <!--
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/trainee_vocabs_tabLayout"
+        app:tabTextAppearance="@style/CustomTextAppearanceTab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab_flashCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Flash card"
+            />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab_learning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Từ đang học"
+            />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab_learned"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đã ghi nhớ"
+            />
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/trainee_vocabs_viewPager"
+        android:layout_below="@id/trainee_vocabs_tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    -->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/flash_card_bg"/>
+
+    <android.widget.Button
+        android:id="@+id/btnShowDialog"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:text="Bắt đầu ngay!"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@drawable/button_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>
